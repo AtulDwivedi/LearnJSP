@@ -1,0 +1,21 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<uri>http://atuldwivedi.com/ctsg1</uri>
+	<tag>
+		<name>expandAbr</name>
+		<tag-class>com.atuldwivedi.learnjsp.customtag.ExpandAbbreviationTag</tag-class>
+		<body-content>jsp</body-content>
+		</tag>
+		
+		<tag>
+		<name>countword</name>
+		<tag-class>com.atuldwivedi.learnjsp.customtag.CountWordTag</tag-class>
+		<body-content>jsp</body-content>
+		<attribute>
+			<name>word</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>
