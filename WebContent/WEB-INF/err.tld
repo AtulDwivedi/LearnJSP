@@ -1,0 +1,15 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<uri>http://atuldwivedi.com/ctags</uri>
+	<tag>
+		<name>loginError</name>
+		<tag-class>com.atuldwivedi.learnjsp.customtag.ErrorTagHandler</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>property</name>
+			<required>true</required>
+			<rtexprvalue>false</rtexprvalue>
+		</attribute>
+	</tag>
+</taglib>

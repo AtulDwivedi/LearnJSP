@@ -1,7 +1,7 @@
 /bin
 /build
 /WebContent/WEB-INF/lib
-/WebContentMETA-INF
+/WebContent/META-INF
 .settings
 .project
 .classpath
