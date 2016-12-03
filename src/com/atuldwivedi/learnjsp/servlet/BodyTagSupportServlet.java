@@ -26,7 +26,7 @@ public class BodyTagSupportServlet extends HttpServlet {
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.getRequestDispatcher("custom-tag/body-tag-support.jsp").forward(request, response);
+		request.getRequestDispatcher("jstl/custom-tag/body-tag-support.jsp").forward(request, response);
 	}
 
 }
