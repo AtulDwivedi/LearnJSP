@@ -24,6 +24,10 @@
 <li>setProperty</li>
 <li>getProperty</li>
 </ol>
-
+<h3>JSTL</h3>
+<ol>
+<li><a href="jstl/core-tags/jstl-core-tags.jsp">JSTL Core Tags</a></li>
+<li><a href="jstl/custom-tags/jstl-custom-tags.jsp">JSTL Custom Tags</a></li>
+</ol>
 </body>
 </html>
