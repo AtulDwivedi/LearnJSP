@@ -11,6 +11,7 @@
 <ol>
 <li><a href="greet.jsp">Greet</a></li>
 <li><a href="login.jsp">Login</a></li>
+<li><a href="body-tag-support.jsp">Login</a></li>
 </ol>
 </body>
 </html>
