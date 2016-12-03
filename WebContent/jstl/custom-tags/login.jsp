@@ -9,9 +9,9 @@
 <body>
 	<form action="CTagsLoginServlet" method="post">
 		<label>User Name:</label><input type="text" name="userName" />
-		<font color="red"><err:loginError property="userName" /></font>
+		<font color="red"><err:loginError property="userNameErr" /></font>
 		<br /> <label>Password:</label><input type="password" name="password" />
-		<font color="red"><err:loginError property="password" /></font>
+		<font color="red"><err:loginError property="passwordErr" /></font>
 		<br /> <input type="submit" value="Login" />
 	</form>
 </body>

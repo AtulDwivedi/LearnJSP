@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class CTagsLoginServlet
  */
-@WebServlet("/CTagsLoginServlet")
+@WebServlet("/jstl/custom-tags/CTagsLoginServlet")
 public class CTagsLoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -33,20 +33,20 @@ public class CTagsLoginServlet extends HttpServlet {
 		String password = request.getParameter("password");
 
 		boolean err = false;
-		String page = "custom-tags/login.jsp";
+		String page = "login.jsp";
 
 		if (userName == null || userName.trim().length() == 0) {
-			request.setAttribute("userName", "User name is mandatory");
+			request.setAttribute("userNameErr", "User name is mandatory");
 			err = true;
 		}
 
 		if (password == null || password.trim().length() == 0) {
-			request.setAttribute("password", "Password is mandatory");
+			request.setAttribute("passwordErr", "Password is mandatory");
 			err = true;
 		}
 
 		if (!err) {
-			page = "custom-tags/home.jsp";
+			page = "home.jsp";
 		}
 		request.getRequestDispatcher(page).forward(
 				request, response);
