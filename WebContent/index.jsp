@@ -20,7 +20,7 @@
 <li><a href="action/include-action.jsp">include action</a></li>
 <li><a href="action/forward-action.jsp">forward</a></li>
 <li>param</li>
-<li>useBean</li>
+<li><a href="action/usebean-action.jsp">useBean</a></li>
 <li>setProperty</li>
 <li>getProperty</li>
 </ol>
