@@ -29,5 +29,10 @@
 <li><a href="jstl/core-tags/jstl-core-tags.jsp">JSTL Core Tags</a></li>
 <li><a href="jstl/custom-tags/jstl-custom-tags.jsp">JSTL Custom Tags</a></li>
 </ol>
+
+<h1>Login App using HttpSession</h1>  
+<a href="login.html">Login</a>|  
+<a href="LogoutServlet">Logout</a>|  
+<a href="ProfileServlet">Profile</a>  
 </body>
 </html>

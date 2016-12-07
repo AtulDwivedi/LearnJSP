@@ -9,7 +9,8 @@
 </head>
 <body> 
 <c:catch var="ex">
-<% int val = 10/0; 
+<% 
+int val = 10/0; 
 out.print(val);
 %>
 </c:catch>

@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<c:set var="age" scope="session" value="90" />
+	<c:set var="age" scope="session" value="40" />
 	<c:out value="Age is: ${age}" />
 	<br>
 

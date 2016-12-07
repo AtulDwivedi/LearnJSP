@@ -10,7 +10,7 @@
 <body> 
 <c:url value="jstl-core-tags.jsp" var="jct">
 <c:param name="name">Atul</c:param>
-<c:param name="why">Advance Jave</c:param>
+<c:param name="why">Advance Java</c:param>
 </c:url>
 ${jct}
 </body>  
