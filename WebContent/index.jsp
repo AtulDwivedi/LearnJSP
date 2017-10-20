@@ -33,6 +33,17 @@
 <h1>Login App using HttpSession</h1>  
 <a href="login.html">Login</a>|  
 <a href="LogoutServlet">Logout</a>|  
-<a href="ProfileServlet">Profile</a>  
+<a href="ProfileServlet">Profile</a>
+
+
+<h3>EL - Expression Language</h3>
+<ul>
+<li><a href="el/param-and-paramvalues.jsp">param and paramValues</a></li>
+<li><a href="el/header-and-headervalues.jsp">header and headerValues</a></li>
+<li><a href="GenerateCookiesServlet">Fetch Cookies using EL</a></li>
+<li><a href="el/el-initparam.jsp">Fetch initParam using EL</a></li>
+<li><a href="el/el-pagecontext.jsp">Fetch pageContext using EL</a></li>
+<li><a href="el/el-scope.jsp">Fetch scope using EL</a></li>
+</ul>  
 </body>
 </html>
